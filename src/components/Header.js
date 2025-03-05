@@ -24,7 +24,7 @@ export default function Header() {
                         </li>
                         <li className="nav-item">
                             {/* Заменил <a> на <Link> */}
-                            <Link className="nav-link text-light" to="/page4">кнопочка 3</Link>
+                            <Link className="nav-link text-light" to="/#">кнопочка 3</Link>
                         </li>
                         <li className="nav-item">
                             <a className="btn btn-outline-primary" href="#">кнопочка 4</a>
