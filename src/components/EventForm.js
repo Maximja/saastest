@@ -10,7 +10,7 @@ export default function EventForm({ onAddEvent, selectedDate }) {
 
         // Отправляем данные на сервер
         try {
-            const response = await fetch("http://localhost:5000/add-event", {
+            const response = await fetch("http://localhost:3001/events", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ title, date: selectedDate, time }),
